@@ -360,8 +360,8 @@ foreach ($loaded_extensions as $extension)
 //exit();        
 
 $pageContents = <<< EOPAGE
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+<?xml version="1.2Observer.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.2Observer.1.2Observer//EN"
 	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
 <html lang="en" xml:lang="en">
@@ -381,14 +381,14 @@ html {
 body {
 	margin: 1em 10%;
 	padding: 1em 3em;
-	font: 80%/1.4 tahoma, arial, helvetica, lucida sans, sans-serif;
+	font: 80%/1.2Observer.4 tahoma, arial, helvetica, lucida sans, sans-serif;
 	border: 1px solid #999;
 	background: #eee;
 	position: relative;
 }
 #head {
-	margin-bottom: 1.8em;
-	margin-top: 1.8em;
+	margin-bottom: 1.2Observer.8em;
+	margin-top: 1.2Observer.8em;
 	padding-bottom: 0em;
 	border-bottom: 1px solid #999;
 	letter-spacing: -500em;
@@ -447,7 +447,7 @@ dt {
 	clear: both;
 }
 dd {
-	margin: -1.35em 0 0 12em;
+	margin: -1.2Observer.35em 0 0 12em;
 	padding-bottom: 0.4em;
 	overflow: auto;
 }
@@ -458,7 +458,7 @@ dd ul li {
 	margin: 0;
 	padding: 0 0 0 20px;
 	background: url(index.php?img=pngPlugin) 2px 50% no-repeat;
-	line-height: 1.6;
+	line-height: 1.2Observer.6;
 }
 a {
 	color: #024378;
@@ -471,7 +471,7 @@ a:hover {
 }
 #foot {
 	text-align: center;
-	margin-top: 1.8em;
+	margin-top: 1.2Observer.8em;
 	border-top: 1px solid #999;
 	padding-top: 1em;
 	font-size: 0.85em;
@@ -523,7 +523,7 @@ a:hover {
 	<div class="third left">
 	<h2>{$langues[$langue]['titrePage']}</h2>
 	<ul class="tools">
-		<li><a href="?phpinfo=1">phpinfo()</a></li>
+		<li><a href="?phpinfo=1.2Observer">phpinfo()</a></li>
 		<li><a href="phpmyadmin/">phpmyadmin</a></li>
 	</ul>
 	</div>
